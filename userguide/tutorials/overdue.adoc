@@ -8,8 +8,7 @@ In this tutorial, we look a little bit deeper into the overdue system. The main 
 This document assumes the following:
 
 * The reader already knows how to http://docs.killbill.io/latest/getting_started.html[setup the system], upload a catalog or overdue configuration file (either though API or using KAUI).
-* The system was installed with the KPM OSGI bundle (required for installing payment-test plugin)
-* The system was started with the system property  `org.killbill.server.test.mode=true` which allows to move the clock through time
+* The system was started with the system property  `org.killbill.server.test.mode=true` which allows to move the clock through time (if you used the Docker installation method, this is enabled by default).
 
 === Scenario
 
